@@ -6,6 +6,7 @@ e i metodi getKey, getValue, setKey, setValue.
 """
 import collections.abc
 
+
 class MyDictionary:
     class MyPair:
         def __init__(self, key, value):
@@ -23,7 +24,6 @@ class MyDictionary:
 
         def setValue(self, newValue):
             self._value = newValue
-
 
     def __init__(self):
         self._dictionary = list()
@@ -81,7 +81,3 @@ class MyDictionary:
         outputDict = outputDict[:-2]
         outputDict += "}"
         return outputDict
-
-
-
-
