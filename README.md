@@ -4,3 +4,6 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 ## Esercizio 1
 - LinkedList
 - MyDictionary
+
+## Esercizio 2
+- mro
