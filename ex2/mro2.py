@@ -12,7 +12,7 @@ class ClasseB:
         count = 0
         for cls in mro[:n]:
             if hasattr(cls, '__dict__'):
-                count += sum(1 for nome, tipo in vars(cls).items() if isinstance(tipo, t) and not nome.startswith('__'))
+                count += sum(1 for nome, tipo in vars(cls).items() if isinstance(tipo, t) and not (nome.startswith('__') and nome.endswith('__')))
         return count
 
 
