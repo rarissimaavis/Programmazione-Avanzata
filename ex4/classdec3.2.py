@@ -1,4 +1,4 @@
-#versione che si spacca (RecursionError)
+# versione che si spacca (RecursionError)
 
 def count(aClass):
     aClass.numInstances = 0
@@ -32,7 +32,7 @@ other = Other()
 print("spam", spam.numInstances)
 print("sub", sub.numInstances)
 print("other", other.numInstances)
-other=Other()
+other = Other()
 print("other", other.numInstances)
 print("spam", spam.numInstances)
 print("sub", sub.numInstances)
