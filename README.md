@@ -7,3 +7,17 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 
 ## Esercizio 2
 - mro
+
+## Esercizio 3
+- 
+
+## Esercizio 4
+- esempio class decorator 3
+- versione con RecursionError
+
+## Esercizio 5
+- esempio function decorator (due elementi)
+- function decorator (tipo str)
+
+## Esercizio 6
+- class decorator (contaVarClasse)
