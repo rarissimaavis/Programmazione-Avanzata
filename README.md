@@ -9,7 +9,7 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 - mro
 
 ## Esercizio 3
-- 
+- Impiegato
 
 ## Esercizio 4
 - esempio class decorator 3
