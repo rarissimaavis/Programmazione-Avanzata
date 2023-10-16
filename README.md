@@ -21,3 +21,12 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 
 ## Esercizio 6
 - class decorator (contaVarClasse)
+
+## Esercizio 7
+- class decorator (derivazione)
+
+## Esercizio 8 
+- max due variabili di istanza (esame 12/01/22)
+
+## Esercizio 9
+- MyString (upper)
