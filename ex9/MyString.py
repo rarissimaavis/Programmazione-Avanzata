@@ -1,5 +1,5 @@
 """
-Scrivere la classe MyString che crea strimhje tutte di lettere maiuscole
+Scrivere la classe MyString che crea stringhe tutte di lettere maiuscole
 """
 
 
