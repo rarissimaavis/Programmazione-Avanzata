@@ -3,8 +3,9 @@ Scrivere la classe MyString che crea stringhe tutte di lettere maiuscole
 """
 
 
+# versione della prof
 class MyString(str):
-    #per semplicità assumiamo che __init__ prenda in input una sequenza
+    # per semplicità assumiamo che __init__ prenda in input una sequenza
     def __new__(cls, s):
         st = []
         for c in s:
