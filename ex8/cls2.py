@@ -16,6 +16,8 @@ class C(object):
     def __setattr__(self, nome, valore):
         if nome in C.__slots__: return super(C, self).__setattr__(nome, valore)
 
+        setattr(C, nome, valore)
+
     def __getattr__(self, nome):
         if nome in C.__slots__: return super(C, self).__getattr__(nome)
 
