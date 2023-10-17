@@ -8,7 +8,8 @@ Se il programma avesse bisogno di aggiungere altre variabili oltre a quelle sopr
 variabili verrebbero create come variabili di classe e non di istanza.
 """
 
-#versione della prof
+
+# versione della prof
 class C(object):
     __slots__ = {"varA", "varB"}
 
