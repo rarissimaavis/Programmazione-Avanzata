@@ -21,6 +21,8 @@ class C(object):
     def __getattr__(self, nome):
         if nome in C.__slots__: return super(C, self).__getattr__(nome)
 
+        setattr(C, nome)
+
 
 "Qui comincia il codice per il test"
 
