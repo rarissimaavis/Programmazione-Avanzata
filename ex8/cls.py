@@ -10,8 +10,7 @@ variabili verrebbero create come variabili di classe e non di istanza.
 
 
 class C(object):
-    varA = None
-    varB = None
+    __slots__ = {"varA", "varB"}
 
     def __setattr__(self, key, value):
         if key in ('varA', 'varB'):
