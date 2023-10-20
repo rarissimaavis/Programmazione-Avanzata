@@ -30,8 +30,8 @@ def decInt(f):
 
 
 @decInt
-def somma(*args):
-    return sum(args)
+def somma(*args, **kwargs):
+    return sum(args) + sum(kwargs.values())
 
 
 res = somma([1, 2.5, '3', 4.7, '5.2', 'abc', 6])
