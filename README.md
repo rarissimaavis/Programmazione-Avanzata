@@ -30,3 +30,12 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 
 ## Esercizio 9
 - MyString (upper)
+
+## Esercizio 10 
+- 
+
+## Esercizi di Ricapitolazione
+- permutazioni di una lista
+- generatore sommatoria
+- decoratore che conta le istanze di una classe
+- 
