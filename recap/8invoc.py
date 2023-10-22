@@ -8,7 +8,7 @@ class MyClass:
     count = 0
 
     def __getattribute__(self, item):
-        if item in ["m1", "m2"]:
+        if callable(super(MyClass, self).__getattribute__(item)):
             MyClass.count += 1
         return super(MyClass, self).__getattribute__(item)
 
