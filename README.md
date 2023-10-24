@@ -32,10 +32,19 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 - MyString (upper)
 
 ## Esercizio 10 
-- 
+- twins
+
+## Esercizio 11
+- MyProxy
+- ClasseConFF (decorator factory)
 
 ## Esercizi di Ricapitolazione
 - permutazioni di una lista
 - generatore sommatoria
 - decoratore che conta le istanze di una classe
 - 
+
+## Sparsi
+- Singleton
+- Borg
+- Proxy
