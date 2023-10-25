@@ -8,6 +8,8 @@ Sia L[j] l'elemento generato con la più recente invocazione di next
 - se L[j] è un intero k diverso da j e compreso tra 1 e len(L)-1 allora la prossima invocazione di next restituisce L[k]
 - in caso contrario non vengono generati altri elementi e le invocazioni successive di next causano un'eccezione
 
+Ad esempio se L = [2,8,4,'a',3] allora con le prime 4 invocazioni di next otteniamo 2 4 3 'a', mentre la quinta
+invocazione causa una StopIteration
 """
 
 
