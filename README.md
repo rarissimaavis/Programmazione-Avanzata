@@ -42,9 +42,22 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 - permutazioni di una lista
 - generatore sommatoria
 - decoratore che conta le istanze di una classe
-- 
+- decoratore che prende una lista e converte gli elementi in int
+- 4 + non lancia eccezioni
+- adapter
+- addAttr
+- numero invocazioni metodi
+- decorator factory numero invocazioni metodo
+- apply
+- TaleEQuale
 
 ## Sparsi
 - Singleton
 - Borg
 - Proxy
+- generatore somma liste
+
+## Esercitazione [24/10]
+- class decorator al più un'istanza (+ al più n istanze)
+- decorator factory + generatore triple
+- generatore elementi lista
