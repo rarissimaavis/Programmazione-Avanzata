@@ -61,3 +61,29 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 - class decorator al più un'istanza (+ al più n istanze)
 - decorator factory + generatore triple
 - generatore elementi lista
+
+## Esami
+12/01/22
+- aggiungiProprieta
+- dFact L[i] + argomenti
+- varA varB
+
+02/02/22
+- conQualiArgomenti
+
+17/02/22
+- StranaTupla
+- ProteggiClasse (proxy)
+- decFact inizializzazioni
+
+22/12/20
+- applica(da_fare)
+- riportaVariabiliDiClasse
+
+28/01/21
+- myDecoratorFact n argomenti
+- frozenset
+
+18/02/20
+- elencaVariabili int
+- elencaVariabili tipo t
