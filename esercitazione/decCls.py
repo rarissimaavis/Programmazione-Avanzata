@@ -1,6 +1,6 @@
 """
-Scrivere il decoratore di classe decoraClasse che trasforma la classe in una classe di cui può esistere al più n istanze.
-Se si tenta di creare più istanze della classe decorata si ha un RuntimeError
+Scrivere il decoratore di classe decoraClasse che trasforma la classe in una classe di cui può esistere al più un'istanza.
+Se si tenta di creare più di un'istanza della classe decorata si ha un RuntimeError
 """
 
 
