@@ -38,6 +38,13 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 - MyProxy
 - ClasseConFF (decorator factory)
 
+## Esercizio 12
+- generatore ricorsivo reverse list
+- Handler (chainOfResponsability)
+
+## Esercizio 13
+- Bambino (state)
+
 ## Esercizi di Ricapitolazione
 - permutazioni di una lista
 - generatore sommatoria
