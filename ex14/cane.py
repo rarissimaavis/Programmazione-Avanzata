@@ -15,32 +15,36 @@ b. quando il padrone torna a casa, se il flag allerta e` True, verifica per cias
     calcola cosi` : (ora1-ora2).total_seconds()/60/60 .
 """
 import datetime
-
 from mod import Cane, Persona, Mediator
 
 
 class Casa:
 
     def __init__(self, nomePadrone, nomeCane1, nomeCane2, oraUltimaPappa1, oraUltimaPappa2):
+        self.mediator = None
         self.allerta = False
         self.padrone = Persona(nomePadrone)
         self.cane1 = Cane(nomeCane1, oraUltimaPappa1)
         self.cane2 = Cane(nomeCane2, oraUltimaPappa2)
+        self.create_mediator()
+
+    def create_mediator(self):
         self.mediator = Mediator(
             ((self.padrone, self.updatePadrone), (self.cane1, self.updateCane), (self.cane2, self.updateCane)))
 
     def updateCane(self, cane=None):
-        self.allerta = True
         print(f"Il cane {cane.nome} abbaia")
+        if self.padrone.ora_ritorno == -1:
+            self.allerta = True
 
     def updatePadrone(self, padrone=None):
         if self.allerta:
             if (self.padrone.ora_ritorno - self.cane1.oraUltimaPappa).total_seconds() / 60 / 60 > 4:
-                self.cane1.oraUltimaPappa = self.padrone.ora_ritorno
                 print(f"Il padrone da` la pappa al cane {self.cane1.nome}")
+                self.cane1.oraUltimaPappa = self.padrone.ora_ritorno
             if (self.padrone.ora_ritorno - self.cane2.oraUltimaPappa).total_seconds() / 60 / 60 > 4:
-                self.cane2.oraUltimaPappa = self.padrone.ora_ritorno
                 print(f"Il padrone da` la pappa al cane {self.cane2.nome}")
+                self.cane2.oraUltimaPappa = self.padrone.ora_ritorno
         self.allerta = False
 
 
