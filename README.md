@@ -39,6 +39,9 @@ Decorator factory:
 ## 6. State
 - Bambino
 
+## 7. Mediator
+- Cane
+
 ## Esercizi di Ricapitolazione
 - permutazioni di una lista
 - generatore ricorsivo reverse list
