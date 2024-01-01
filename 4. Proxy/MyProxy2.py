@@ -11,6 +11,8 @@ metodi di istanza dipenda dal valorie di x passati a __init__
 """
 
 
+# versione con valore di default
+
 class MyClass:
     def __init__(self, a):
         self.a = a
@@ -34,4 +36,3 @@ class MyProxy:
 p = MyProxy(3)
 p.meth(2)
 print(p.metodo_inesistente(2))
-

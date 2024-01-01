@@ -1,8 +1,7 @@
 """Scrivere all'interno della classe Top, due classi Twin1 e Twin2 nessuna della quali è derivata dall'altra.
 Le istanze di ciascuna classe devono essere tra di loro identiche e anche identiche alle istanze dell'altra classe
 (identiche vuol dire stessi attributi)
-Scrivere poi
-
+Scrivere poi la classe Der1 le cui istanze non condividono lo stesso stato delle istanze delle due classi base.
 """
 
 

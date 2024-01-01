@@ -6,6 +6,7 @@ https://magenta-squirrel-e2f.notion.site/Programmazione-avanzata-e33b91a7dceb450
 - MyDictionary
 - mro
 - Impiegato
+- MyString (upper)
 
 ## 2. Decorator
 Esempio class decorator:
@@ -20,25 +21,27 @@ Class decorator:
 - class decorator (contaVarClasse)
 - class decorator (derivazione)
 
-## Esercizio 9
-- MyString (upper)
-
-## Esercizio 10 
-- twins
-
-## Esercizio 11
-- MyProxy
+Decorator factory:
 - ClasseConFF (decorator factory)
 
-## Esercizio 12
-- generatore ricorsivo reverse list
-- Handler (chainOfResponsability)
+## 3. Singleton
+- twins
+- Singleton
+- Borg
 
-## Esercizio 13
-- Bambino (state)
+## 4. Proxy
+- MyProxy
+- Proxy
+
+## 5. Chain of responsability
+- Handler
+
+## 6. State
+- Bambino
 
 ## Esercizi di Ricapitolazione
 - permutazioni di una lista
+- generatore ricorsivo reverse list
 - generatore sommatoria
 - decoratore che conta le istanze di una classe
 - decoratore che prende una lista e converte gli elementi in int
@@ -51,9 +54,7 @@ Class decorator:
 - TaleEQuale
 
 ## Sparsi
-- Singleton
-- Borg
-- Proxy
+
 - generatore somma liste
 
 ## Esercitazione [24/10]
