@@ -7,10 +7,12 @@ di varI settato da __init__ di ClasseBase.
 """
 
 
-class ClasseBase:
-    varC = 1000
+def ClasseBaseDecorator(classe):
+    classe.varC = 1000
+    oldInit = classe.__init__
 
-    def __init__(self):
+    def __newInit__(self, *args, **kwargs):
+        oldInit(self, *args, **kwargs)
         self.varI = 10
 
     def f(self, v):
@@ -18,18 +20,15 @@ class ClasseBase:
 
     @staticmethod
     def g(x):
-        print(f"{x} * {ClasseBase.varC} =",x * ClasseBase.varC)
+        print(f"{x} * {classe.varC} =", x * classe.varC)
+
+    classe.__init__ = __newInit__
+    classe.f = f
+    classe.g = g
+    return classe
 
 
-def dec(cls):
-    cls.__init__ = ClasseBase.__init__
-    cls.varC = ClasseBase.varC
-    cls.f = ClasseBase.f
-    cls.g = staticmethod(ClasseBase.g)
-    return cls
-
-
-@dec
+@ClasseBaseDecorator
 class MyClass:
     pass
 
