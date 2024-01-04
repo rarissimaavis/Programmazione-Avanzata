@@ -46,6 +46,7 @@ Decorator factory:
 - permutazioni di una lista
 - generatore ricorsivo reverse list
 - generatore sommatoria
+- generatore somma liste
 - decoratore che conta le istanze di una classe
 - decoratore che prende una lista e converte gli elementi in int
 - 4 + non lancia eccezioni
@@ -55,10 +56,6 @@ Decorator factory:
 - decorator factory numero invocazioni metodo
 - apply
 - TaleEQuale
-
-## Sparsi
-
-- generatore somma liste
 
 ## Esercitazione [24/10]
 - class decorator al più un'istanza (+ al più n istanze)
