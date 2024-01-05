@@ -37,10 +37,24 @@ Decorator factory:
 - Handler
 
 ## 6. State
+- esempio multiplexer
 - Bambino
 
 ## 7. Mediator
+- esempio form
 - Cane
+
+## 8. Observer
+- esempio scrollbar
+
+## 9. Facade
+- esempio unpack
+
+## 10. Prototype
+- 
+
+## 11. Flyweight
+- 
 
 ## Esercizi di Ricapitolazione
 - permutazioni di una lista
