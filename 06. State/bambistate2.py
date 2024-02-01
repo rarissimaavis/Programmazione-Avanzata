@@ -21,7 +21,7 @@ class Bambino:
         self.state = Bambino.ISCRITTO
 
     @property
-    def state(self):
+    def statoBimbo(self):
         # se la versione pubblica è uguale alla versione privata allora il metodo esiste, altrimenti c'è una lambda
         if self.succ != self._succ: return Bambino.DIPLOMATO
         if self.pred != self._pred: return Bambino.ISCRITTO
@@ -35,7 +35,7 @@ class Bambino:
             self.succ = self._succ
             self.salta_anno = self._salta_anno
         elif state == Bambino.ALSECONDOANNO:
-            self.pred =
+            self.pred = self._pred
             self.succ = self._succ
             self.salta_anno = self._salta_anno
         elif state == Bambino.ALTERZOANNO:
