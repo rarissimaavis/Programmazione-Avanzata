@@ -88,8 +88,8 @@ class Client:
 
 client = Client()
 
-requests1 = ["apple", "123", "a123", "xyz", ""]
-requests2 = ["a", "4", "b", "x", "5"]
+r1 = ["apple", "123", "a123", "xyz", ""]
+r2 = ["a", "4", "b", "x", "5"]
 
-client.entrust(requests1, requests2)
+client.entrust(r1, r2)
 
