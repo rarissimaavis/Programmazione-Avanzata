@@ -36,7 +36,7 @@ def worker(jobs, results):
         file, listaParole = jobs.get()
         result = cercaConc(file, listaParole)
         if result != "":
-            print(f"La stringa del file {file} che appare per prima nella lista {listaParole} è \"{result}\".")
+            print(f"La stringa della lista {listaParole} che appare più volte nel file {file} è \"{result}\".")
         else:
             print(f"Nessuna parola della lista appare nel file {file}.")
         jobs.task_done()
@@ -66,8 +66,8 @@ if __name__ == "__main__":
 """
 Ecco cosa deve essere stampato (l'ordine delle righe potrebbe cambiare):
 
-La stringa del file file1 che appare per prima nella lista ['computer', 'very', 'with', 'it', 'algorithms'] è "computer".
-La stringa del file file2 che appare per prima nella lista ['computer', 'very', 'with', 'it', 'algorithms'] è "very".
-La stringa del file file3 che appare per prima nella lista ['computer', 'very', 'with', 'it', 'algorithms'] è "with".
-La stringa del file file4 che appare per prima nella lista ['computer', 'very', 'with', 'it', 'algorithms'] è "it".
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file1 è "computer".
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file2 è "very".
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file3 è "with".
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file4 è "it".
 """
