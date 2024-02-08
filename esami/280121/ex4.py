@@ -61,3 +61,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file1 è "very", che appare 2 volte.
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file2 è "computer", che appare 4 volte.
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file3 è "algorithms", che appare 4 volte.
+La stringa della lista ['computer', 'very', 'with', 'it', 'algorithms'] che appare più volte nel file file4 è "computer", che appare 2 volte.
+"""
